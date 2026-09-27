@@ -39,7 +39,7 @@ export async function POST(request: Request) {
         html: `
           <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6;">
             <div style="text-align: center; padding: 30px 0; border-bottom: 2px solid #f59e0b;">
-              <h2 style="color: #020617; margin-bottom: 0; font-weight: 300; letter-spacing: 1px;">DCA <span style="color: #f59e0b;">ESTATES</span></h2>
+              <h2 style="color: #020617; margin-bottom: 0; font-weight: 300; letter-spacing: 1px;">DCA <span style="color: #f59e0b;">Moving</span></h2>
               <p style="font-size: 14px; color: #64748b; margin-top: 5px; text-transform: uppercase; letter-spacing: 2px;">Private Client Services</p>
             </div>
             
