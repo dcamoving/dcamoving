@@ -199,7 +199,7 @@ export default function QuoteFormV2({ idPrefix = 'q' }: { idPrefix?: string }) {
                 }
               }}
             >
-              {step < 3 ? 'Continue' : (status === 'submitting' ? 'Sending...' : 'Get My Guaranteed Quote')}
+              {step < 3 ? 'Continue' : (status === 'submitting' ? 'Sending...' : 'Request Estimate')}
             </button>
           </div>
         </form>

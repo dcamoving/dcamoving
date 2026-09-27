@@ -41,7 +41,7 @@ test.describe('Progressive Quote Form', () => {
     await form.locator('select[name="Contact_Method"]').selectOption('Email');
 
     // Submit the form
-    await form.locator('button:has-text("Get My Guaranteed Quote")').click();
+    await form.locator('button:has-text("Request Estimate")').click();
 
     // Verify Success State
     const successMessage = form.locator('h3:has-text("Request Sent!")');
