@@ -72,7 +72,7 @@ export async function POST(request: Request) {
               
               <p style="font-size: 16px; color: #475569; margin-top: 40px;">
                 Respectfully,<br/>
-                <strong style="color: #0f172a;">Denis & The DCA Estate Relocation Team</strong><br/>
+                <strong style="color: #0f172a;">Denis & The DCA Moving Team</strong><br/>
                 <span style="font-size: 14px;">Toronto's Premier Logistics for High-Value Assets</span>
               </p>
             </div>
