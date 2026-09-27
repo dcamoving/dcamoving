@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Hero from '@/components/Hero';
 import TrustBar from '@/components/TrustBar';
 import Services from '@/components/Services';
+import Methodology from '@/components/Methodology';
 import WhyUs from '@/components/WhyUs';
 import HowItWorks from '@/components/HowItWorks';
 import Areas from '@/components/Areas';
@@ -49,6 +50,7 @@ export default function Home() {
       <Hero />
       <TrustBar />
       <Services />
+      <Methodology />
       <WhyUs />
       <HowItWorks />
       <Areas />

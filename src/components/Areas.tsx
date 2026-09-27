@@ -1,8 +1,33 @@
+import Link from 'next/link';
+
 export default function Areas() {
   const chips = [
-    "Toronto", "North York", "Etobicoke", "Scarborough", "Vaughan",
-    "Concord", "Thornhill", "Richmond Hill", "Markham", "Mississauga",
-    "Brampton", "Leaside", "Hamilton", "Barrie", "Huntsville", "Ottawa"
+    'Toronto',
+    'North York',
+    'Etobicoke',
+    'Scarborough',
+    'Vaughan',
+    'Concord',
+    'Thornhill',
+    'Richmond Hill',
+    'Markham',
+    'King City',
+    'Aurora',
+    'Newmarket',
+    'Mississauga',
+    'Brampton',
+    'Caledon',
+    'Oakville',
+    'Burlington',
+    'Milton',
+    'Halton Hills',
+    'Hamilton',
+    'Ancaster',
+    'Niagara Region',
+    'Niagara-on-the-Lake',
+    'Barrie',
+    'Huntsville',
+    'Ottawa',
   ];
 
   return (
@@ -10,7 +35,9 @@ export default function Areas() {
       <div className="container">
         <div className="reveal">
           <span className="section-label">Service Areas</span>
-          <h2 id="areas-heading" className="section-title">Serving Toronto &amp; Beyond</h2>
+          <h2 id="areas-heading" className="section-title">
+            Serving Toronto &amp; Beyond
+          </h2>
           <p className="section-subtitle">
             From downtown condos to suburban homes. Local, long-distance, and everywhere in between.
           </p>
@@ -18,7 +45,9 @@ export default function Areas() {
 
         <div className="areas__chips reveal">
           {chips.map((chip, idx) => (
-            <span key={idx} className="area-chip">{chip}</span>
+            <Link key={idx} href="/#contact" className="area-chip">
+              {chip}
+            </Link>
           ))}
         </div>
 

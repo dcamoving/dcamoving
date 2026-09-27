@@ -9,7 +9,7 @@ test.describe('DCA Moving E2E Tests', () => {
   test('Homepage loads and displays correct hero text', async ({ page }) => {
     // Verify title
     await expect(page).toHaveTitle(/DCA Moving/);
-    
+
     // Verify Hero text
     const heroTitle = page.locator('h1.hero__title');
     await expect(heroTitle).toContainText("Toronto's Top-Rated Movers.");
@@ -48,7 +48,7 @@ test.describe('DCA Moving E2E Tests', () => {
 
     // Click to expand
     await firstFaqBtn.click();
-    
+
     // Verify it becomes visible
     await expect(firstFaqAnswer).toBeVisible();
 
@@ -67,7 +67,7 @@ test.describe('DCA Moving E2E Tests', () => {
     await page.locator('#q-phone').fill('416-555-1234');
     await page.locator('#q-email').fill('john@example.com');
     await page.locator('#q-size').selectOption('2BR');
-    
+
     // Submit form
     await page.locator('button[type="submit"]').click();
 
@@ -84,7 +84,7 @@ test.describe('DCA Moving E2E Tests', () => {
     // Check if the script tag with application/ld+json is present
     const schemaScript = page.locator('head script[type="application/ld+json"]');
     await expect(schemaScript).toHaveCount(1);
-    
+
     const content = await schemaScript.textContent();
     expect(content).toContain('MovingCompany');
     expect(content).toContain('DCA Moving');

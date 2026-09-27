@@ -1,8 +1,8 @@
 export default function WhyUs() {
   const reasons = [
     {
-      title: "5.0 ★ on Google",
-      desc: "150+ verified reviews from real Toronto families. Not one review below five stars. That kind of consistency takes obsession.",
+      title: '5.0 ★ on Google',
+      desc: '150+ verified reviews from real Toronto families. Not one review below five stars. That kind of consistency takes obsession.',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
@@ -10,8 +10,8 @@ export default function WhyUs() {
       ),
     },
     {
-      title: "Owner On Every Job",
-      desc: "Denis answers the phone. Denis quotes your move. Denis shows up. No middlemen, no dispatchers, no surprises.",
+      title: 'Owner On Every Job',
+      desc: 'Denis answers the phone. Denis estimates your move. Denis shows up. No middlemen, no dispatchers, no surprises.',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
@@ -20,7 +20,7 @@ export default function WhyUs() {
       ),
     },
     {
-      title: "Zero-Damage Promise",
+      title: 'Zero-Damage Promise',
       desc: "Moving blankets, shrink wrap, floor runners, wall corner guards. Wrapped, blanketed, protected. Then moved like it's our own.",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -29,8 +29,8 @@ export default function WhyUs() {
       ),
     },
     {
-      title: "On Time, Every Time",
-      desc: "Multiple reviews note we arrive 5–10 minutes early. Your moving day starts right because we respect your time.",
+      title: 'On Time, Every Time',
+      desc: 'Multiple reviews note we arrive 5–10 minutes early. Your moving day starts right because we respect your time.',
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <circle cx="12" cy="12" r="10" />
@@ -39,8 +39,8 @@ export default function WhyUs() {
       ),
     },
     {
-      title: "Transparent Pricing",
-      desc: "Honest hourly rate. No hidden fees. No 'stair charges' or 'long carry' surprises. The quote you get is the price you pay.",
+      title: 'Transparent Pricing',
+      desc: "Honest hourly rate. No hidden fees. No 'stair charges' or 'long carry' surprises. The estimate you get is the price you pay.",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
@@ -52,12 +52,15 @@ export default function WhyUs() {
   return (
     <section id="why" className="why" aria-labelledby="why-heading">
       <div className="container">
-        <div className="reveal" style={{ textAlign: "center" }}>
+        <div className="reveal" style={{ textAlign: 'center' }}>
           <span className="section-label">Why DCA</span>
-          <h2 id="why-heading" className="section-title" style={{ color: "#fff" }}>
+          <h2 id="why-heading" className="section-title" style={{ color: '#fff' }}>
             150+ Five-Star Reviews Didn&apos;t Happen by Accident
           </h2>
-          <p className="section-subtitle" style={{ marginInline: "auto", color: "rgba(255,255,255,0.6)" }}>
+          <p
+            className="section-subtitle"
+            style={{ marginInline: 'auto', color: 'rgba(255,255,255,0.6)' }}
+          >
             Five pillars that set us apart from every other mover in the GTA.
           </p>
         </div>
