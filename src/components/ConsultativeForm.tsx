@@ -97,6 +97,39 @@ export default function ConsultativeForm() {
           </div>
 
           <div className="wg-form-group">
+            <label className="wg-form-label">Origin Location</label>
+            <input 
+              type="text" 
+              name="Origin"
+              required 
+              className="wg-form-input"
+              placeholder="Current address or city"
+            />
+          </div>
+
+          <div className="wg-form-group">
+            <label className="wg-form-label">Destination Location</label>
+            <input 
+              type="text" 
+              name="Destination"
+              required 
+              className="wg-form-input"
+              placeholder="New address or city"
+            />
+          </div>
+
+          <div className="wg-form-group">
+            <label className="wg-form-label">Target Timeframe</label>
+            <input 
+              type="text" 
+              name="Target_Date"
+              required 
+              className="wg-form-input"
+              placeholder="e.g., Mid-October, ASAP, or specific date"
+            />
+          </div>
+
+          <div className="wg-form-group">
             <label className="wg-form-label">Additional Context (Optional)</label>
             <textarea 
               name="Additional_Context"
