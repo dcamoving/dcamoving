@@ -37,39 +37,47 @@ export async function POST(request: Request) {
         replyTo: 'dcamoving@gmail.com',
         subject: "You're one step closer to a stress-free move! 🚚",
         html: `
-          <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333; line-height: 1.6;">
-            <div style="text-align: center; padding: 20px 0;">
-              <h2 style="color: #0b2545; margin-bottom: 0;">Hi ${data.Name || 'there'},</h2>
-              <p style="font-size: 18px; color: #555; margin-top: 10px;">Thanks for reaching out to DCA Moving!</p>
+          <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1e293b; line-height: 1.6;">
+            <div style="text-align: center; padding: 30px 0; border-bottom: 2px solid #f59e0b;">
+              <h2 style="color: #020617; margin-bottom: 0; font-weight: 300; letter-spacing: 1px;">DCA <span style="color: #f59e0b;">Moving</span></h2>
+              <p style="font-size: 14px; color: #64748b; margin-top: 5px; text-transform: uppercase; letter-spacing: 2px;">Moving Estimate Request</p>
             </div>
             
-            <div style="background-color: #f9fafb; border-radius: 8px; padding: 30px; margin-bottom: 20px; border: 1px solid #eee;">
-              <p style="font-size: 16px; margin-top: 0;">We have received your estimate request and our team is already reviewing the details. Moving can be overwhelming, but you've just taken the best first step toward a seamless, zero-drama transition.</p>
+            <div style="padding: 30px 20px;">
+              <p style="font-size: 18px; margin-top: 0; color: #0f172a;">Hi ${data.Name || 'there'},</p>
               
-              <p style="font-size: 16px;"><strong>What happens next?</strong></p>
-              <ul style="font-size: 16px; padding-left: 20px; color: #444;">
-                <li style="margin-bottom: 10px;">Denis or one of our relocation specialists will personally review your move details.</li>
-                <li style="margin-bottom: 10px;">We will prepare a transparent, no-obligation hourly estimate tailored specifically to your needs.</li>
-                <li>We'll reach out to you shortly (usually within a few hours) via your preferred contact method.</li>
-              </ul>
-            </div>
-
-            <div style="padding-top: 10px;">
-              <h3 style="color: #0b2545;">Here is a summary of what you shared with us:</h3>
-              <div style="background-color: #fff; border: 1px solid #eee; border-radius: 8px; padding: 20px; font-size: 15px;">
-                ${emailHtml}
+              <p style="font-size: 16px;">Thanks for reaching out to DCA Moving! We have received your estimate request and our team is already reviewing the details. Moving can be overwhelming, but you've just taken the best first step toward a seamless, zero-drama transition.</p>
+              
+              <div style="background-color: #f8fafc; border-left: 4px solid #f59e0b; padding: 20px; margin: 30px 0;">
+                <p style="font-size: 16px; margin-top: 0; font-weight: bold;">What happens next?</p>
+                <ul style="font-size: 16px; padding-left: 20px; color: #334155; margin-bottom: 0;">
+                  <li style="margin-bottom: 10px;">Denis or one of our relocation specialists will personally review your move details.</li>
+                  <li style="margin-bottom: 10px;">We will prepare a transparent, no-obligation hourly estimate tailored specifically to your needs.</li>
+                  <li>We'll reach out to you shortly (usually within a few hours) via your preferred contact method.</li>
+                </ul>
               </div>
-            </div>
 
-            <p style="font-size: 16px; margin-top: 30px;">If you remembered any additional details you'd like us to know, or if you have immediate questions, simply <strong>reply to this email</strong> and it will go directly to our team.</p>
+              <div style="padding-top: 10px;">
+                <h3 style="color: #0f172a; font-weight: 500;">Here is a summary of what you shared with us:</h3>
+                <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 4px; padding: 20px; font-size: 15px; color: #475569;">
+                  ${emailHtml}
+                </div>
+              </div>
+
+              <p style="font-size: 16px; margin-top: 30px;">If you remembered any additional details you'd like us to know, or if you have immediate questions, simply <strong>reply to this email</strong> and it will go directly to our team.</p>
+              
+              <p style="font-size: 16px; margin-top: 20px;">We look forward to taking the heavy lifting off your shoulders!</p>
+              
+              <p style="font-size: 16px; color: #475569; margin-top: 40px;">
+                Warm regards,<br/>
+                <strong style="color: #0f172a;">Denis & The DCA Moving Team</strong><br/>
+                <span style="font-size: 14px;">Toronto's Top-Rated Movers</span>
+              </p>
+            </div>
             
-            <p style="font-size: 16px; margin-top: 20px;">We look forward to taking the heavy lifting off your shoulders!</p>
-            
-            <p style="font-size: 16px; color: #666; margin-top: 30px;">
-              Warm regards,<br/>
-              <strong style="color: #0b2545;">Denis & The DCA Moving Team</strong><br/>
-              <span style="font-size: 14px;">Toronto's Top-Rated Movers</span>
-            </p>
+            <div style="text-align: center; padding: 20px; background-color: #020617; color: #94a3b8; font-size: 12px;">
+              DCA Moving
+            </div>
           </div>
         `,
       });
