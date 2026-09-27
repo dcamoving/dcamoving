@@ -78,7 +78,7 @@ export async function POST(request: Request) {
             </div>
             
             <div style="text-align: center; padding: 20px; background-color: #020617; color: #94a3b8; font-size: 12px;">
-              DCA Moving | Private Client Services | Fully Insured & Bonded
+              DCA Moving | Private Client Services
             </div>
           </div>
         `,
