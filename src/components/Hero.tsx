@@ -44,7 +44,7 @@ export default function Hero() {
 
         <div className="hero__ctas" style={{ display: 'flex', gap: '15px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
           <Link href="/#contact" className="btn btn--primary">
-            Fast Hourly Quote
+            Request Estimate
           </Link>
           <Link href="/white-glove" className="btn btn--outline" style={{ borderColor: '#d4af37', color: '#d4af37', backgroundColor: 'transparent' }}>
             Request Consultative Estate Plan
